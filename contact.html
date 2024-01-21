@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width,initial-scale=1.0">
+            <link href="header.css" rel="stylesheet">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+            <style>
+                 legend{
+                    font-size:1.5rem;
+                    text-align:center;
+                    font-weight:bold;
+                 }
+                 fieldset>label{
+                    font-size:1.2rem;
+                    font-weight:bold;
+                 }
+                 .inp-1{
+                       border:0.15rem solid black;
+                       width:20rem;
+                       height:2rem;
+                 }
+                 fieldset textarea{
+                       border:0.15rem solid black;
+                       width:80vw;
+                 }
+                 fieldset{
+                    border:0.15rem solid black;
+                    height:80vh;
+                 }
+                 fieldset input{
+                    margin-bottom:3.5rem;
+                 }
+                 [type=submit]{
+                    margin-top:2rem;
+                    width:6rem;
+                    background-color:rgb(85, 221, 85);
+                    height:2.2rem;
+                    font-weight:bold;
+                    border:0rem solid black;
+                    border-radius:0.5rem;
+                    text-align:center;
+                 }
+                 [type=submit]:hover{
+                     background-color:cadetblue;
+                     color:black;
+                 }
+                 fieldset p{
+                     text-align:center;
+                 }
+            </style>
+          </head>
+         <body>
+            <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+            <div class="topnav" id="myTopnav">
+              <a href="index.html">Home</a>
+              <a href="Academics.html">Academics</a>
+              <a href="publications.html">Publications</a>
+              <a href="Achievements.html">Achievements</a>
+              <a href="contact.html"  class="active">contact</a>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
+            <div id="p1">
+               <p style="font-size:2rem;color:black;">Prof S H Sheik Mohammed</p>
+                   <p>Assistant Proffessor</p>
+                   <p>PG Department of Electronic Media</p>
+                   <p>St Thomas College of Arts and Science,Chennai</p>
+                   <p>Tamil Nadu,India</p>
+            </div>
+            <br>
+            <form method="POST" name="comment-form">
+                <fieldset>
+                    <legend>Contact-form</legend>
+                    <label for="name">Name(required)</label><br>
+                    <input type="text" name="name" id="name" class="inp-1"><br>
+                    <label for="Email" >Email(required)</label><br>
+                    <input type="email" name="Email" id="Email" class="inp-1"><br>
+                    <label for="Comment" >Comment(required)</label><br>
+                    <textarea rows="6" cols="30">
+                    </textarea><br>
+                    <p><input type="submit"></p>
+                </fieldset>
+            </form>
+        </body>
+</html>
