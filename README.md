@@ -9,7 +9,7 @@ A dynamic personal portfolio for an assistant professor, showcasing academic ach
 - Achieved a 30% increase in online visibility
 
 **Demo:**
-[[Live Demo]((https://mrsheikjmc.000webhostapp.com/index.html))]
+[Live Demo](https://mrsheikjmc.000webhostapp.com/index.html)
 
 **Installation:**
 1. Clone the repository
